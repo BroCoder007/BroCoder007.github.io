@@ -1,408 +1,261 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Abhinav Raghavendra — Cybersecurity Analyst & Developer</title>
-  <meta name="description" content="Abhinav Raghavendra's portfolio — Cybersecurity Analyst, B.Tech CSE student, Google Security Professional Certificate holder. Projects in Python, Java, JavaScript." />
-  <meta name="theme-color" content="#0a0a0f" />
-  <link rel="icon" href="https://avatars.githubusercontent.com/u/202671774?v=4" type="image/png" />
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <!-- Animated Background -->
-  <div class="bg-gradient-canvas" aria-hidden="true">
-    <div class="bg-orb bg-orb--1"></div>
-    <div class="bg-orb bg-orb--2"></div>
-    <div class="bg-orb bg-orb--3"></div>
-  </div>
-  <div class="noise-overlay" aria-hidden="true"></div>
-  <canvas id="particles-canvas" aria-hidden="true"></canvas>
-
-  <!-- Navigation -->
-  <nav class="navbar" id="navbar">
-    <div class="navbar__inner">
-      <a href="#" class="navbar__logo">{ <span id="logo-name">Abhinav Raghavendra</span> }</a>
-      <ul class="navbar__links" id="nav-links">
-        <li><a href="#hero">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-      <button class="mobile-menu-toggle" id="menu-toggle" aria-label="Toggle navigation menu">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-    </div>
-  </nav>
-
-  <!-- Main Content -->
-  <main class="main-content">
-
-    <!-- ======== Hero Section ======== -->
-    <section class="hero" id="hero">
-      <div class="hero__content">
-        <div class="hero__avatar-wrapper reveal">
-          <div class="hero__avatar-ring">
-            <img
-              src="https://avatars.githubusercontent.com/u/202671774?v=4"
-              alt="Abhinav Raghavendra"
-              class="hero__avatar"
-              loading="eager"
-            />
-          </div>
-          <div class="hero__avatar-glow" aria-hidden="true"></div>
-        </div>
-
-        <div class="hero__text">
-          <p class="hero__greeting reveal reveal-delay-1">Hello, I'm</p>
-          <h1 class="hero__name reveal reveal-delay-2">Abhinav Raghavendra</h1>
-          <p class="hero__role reveal reveal-delay-2">Cybersecurity Analyst</p>
-          <p class="hero__tagline reveal reveal-delay-3">
-            <span id="typing-text"></span><span class="typing-cursor" aria-hidden="true">|</span>
-          </p>
-
-          <div class="hero__stats reveal reveal-delay-3">
-            <div class="stat">
-              <span class="stat__number" data-target="8">0</span>
-              <span class="stat__label">Repos</span>
-            </div>
-            <div class="stat">
-              <span class="stat__number" data-target="38">0</span>
-              <span class="stat__label">CTF Rank</span>
-            </div>
-            <div class="stat">
-              <span class="stat__number" data-target="5">0</span>
-              <span class="stat__label">Languages</span>
-            </div>
-            <div class="stat">
-              <span class="stat__number" data-target="3">0</span>
-              <span class="stat__label">Certs</span>
-            </div>
-          </div>
-
-          <div class="hero__actions reveal reveal-delay-4">
-            <a href="#projects" class="btn btn--primary">
-              <svg class="btn__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/>
-              </svg>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Abhinav Raghavendra | Software Development, Data &amp; Security</title>
+<meta content="Computer Science undergraduate at Amrita. Selected projects in data analytics, file encryption and Android development. Open to software engineering internships." name="description"/>
+<meta content="#0a0a0f" name="theme-color"/>
+<link href="https://avatars.githubusercontent.com/u/202671774?v=4" rel="icon" type="image/png"/>
+<link href="style.css" rel="stylesheet"/>
+<link href="https://brocoder007.github.io/" rel="canonical"/></head>
+<body><a class="skip-link" href="#main-content">Skip to content</a>
+<!-- Animated Background -->
+<div aria-hidden="true" class="bg-gradient-canvas">
+<div class="bg-orb bg-orb--1"></div>
+<div class="bg-orb bg-orb--2"></div>
+<div class="bg-orb bg-orb--3"></div>
+</div>
+<div aria-hidden="true" class="noise-overlay"></div>
+<canvas aria-hidden="true" id="particles-canvas"></canvas>
+<!-- Navigation -->
+<nav aria-label="Main navigation" class="navbar" id="navbar">
+<div class="navbar__inner">
+<a class="navbar__logo" href="#hero">{ <span id="logo-name">Abhinav Raghavendra</span> }</a>
+<ul class="navbar__links" id="nav-links">
+<li><a href="#hero">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#education">Background</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+<button aria-controls="nav-links" aria-expanded="false" aria-label="Toggle navigation menu" class="mobile-menu-toggle" id="menu-toggle">
+<span></span>
+<span></span>
+<span></span>
+</button>
+</div>
+</nav>
+<!-- Main Content -->
+<main class="main-content" id="main-content">
+<!-- ======== Hero Section ======== -->
+<section class="hero" id="hero">
+<div class="hero__content">
+<div class="hero__avatar-wrapper reveal">
+<div class="hero__avatar-ring">
+<img alt="Abhinav Raghavendra" class="hero__avatar" loading="eager" src="https://avatars.githubusercontent.com/u/202671774?v=4"/>
+</div>
+<div aria-hidden="true" class="hero__avatar-glow"></div>
+</div>
+<div class="hero__text">
+<p class="hero__greeting reveal reveal-delay-1">Hello, I'm</p>
+<h1 class="hero__name reveal reveal-delay-2">Abhinav Raghavendra</h1>
+<p class="hero__role reveal reveal-delay-2">Computer Science Undergraduate</p>
+<p class="hero__tagline reveal reveal-delay-3">Building practical software, useful dashboards and security tools. Open to software engineering internships.</p>
+<div class="hero__stats reveal reveal-delay-3"><div class="stat"><span class="stat__number">5</span><span class="stat__label">Selected projects</span></div><div class="stat"><span class="stat__number">8.47</span><span class="stat__label">CGPA</span></div><div class="stat"><span class="stat__number">38</span><span class="stat__label">Pragyan CTF rank</span></div><div class="stat"><span class="stat__number">1</span><span class="stat__label">Certification</span></div></div>
+<div class="hero__actions reveal reveal-delay-4">
+<a class="btn btn--outline" download="Abhinav_Raghavendra_Resume.pdf" href="assets/Abhinav_Raghavendra_Resume.pdf">Download Resume</a><a class="btn btn--primary" href="#projects">
+<svg class="btn__icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+<path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+</svg>
               View Projects
             </a>
-            <a href="https://github.com/BroCoder007" target="_blank" rel="noopener noreferrer" class="btn btn--outline">
-              <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-              </svg>
+<a class="btn btn--outline" href="https://github.com/BroCoder007" rel="noopener noreferrer" target="_blank">
+<svg class="btn__icon" fill="currentColor" viewbox="0 0 24 24">
+<path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path>
+</svg>
               GitHub Profile
             </a>
-            <a href="#contact" class="btn btn--outline">
-              <svg class="btn__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
-                <polyline points="22,6 12,13 2,6"/>
-              </svg>
+<a class="btn btn--outline" href="#contact">
+<svg class="btn__icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+<path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+<polyline points="22,6 12,13 2,6"></polyline>
+</svg>
               Contact Me
             </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ======== About Section ======== -->
-    <section class="section" id="about">
-      <div class="section__header reveal">
-        <p class="section__label">About Me</p>
-        <h2 class="section__title">Who I Am</h2>
-        <p class="section__subtitle">Cybersecurity-focused CS student passionate about securing systems and building reliable software.</p>
-      </div>
-
-      <div class="about-grid">
-        <!-- Bio Card -->
-        <div class="about__card about__card--wide reveal reveal-delay-1">
-          <h3 class="about__card-title">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
-              <circle cx="12" cy="7" r="4"/>
-            </svg>
+</div>
+</div>
+</div>
+</section>
+<!-- ======== About Section ======== -->
+<section class="section" id="about">
+<div class="section__header reveal">
+<p class="section__label">About Me</p>
+<h2 class="section__title">Who I Am</h2>
+<p class="section__subtitle">A Computer Science student interested in software development, data analytics, DevOps and security.</p>
+</div>
+<div class="about-grid">
+<!-- Bio Card -->
+<div class="about__card about__card--wide reveal reveal-delay-1">
+<h3 class="about__card-title">
+<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+<path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+<circle cx="12" cy="7" r="4"></circle>
+</svg>
             Bio
           </h3>
-          <p class="about__card-text">
-            I am a Computer Science undergraduate with a strong interest in <strong>Cybersecurity</strong> and <strong>DevOps</strong>. I enjoy understanding how systems work under the hood and how they can be built, secured, and deployed reliably. I have experience with Java, Python, C, C++, and JavaScript, and I like applying concepts such as algorithms, object-oriented programming, and concurrency through hands-on projects.
-          </p>
-          <p class="about__card-text" style="margin-top: 12px;">
-            I have also worked on projects involving operating system concepts like process management and multithreading, which strengthened my interest in systems and infrastructure. Currently, I am actively building skills in security practices, automation, and infrastructure management, with the goal of contributing to secure and scalable systems in real-world environments.
-          </p>
-        </div>
-
-        <!-- Accomplishments Card -->
-        <div class="about__card reveal reveal-delay-2">
-          <h3 class="about__card-title">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="12" cy="8" r="7"/>
-              <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/>
-            </svg>
+<p class="about__card-text">I'm pursuing a B.Tech in Computer Science and Engineering at Amrita School of Computing, Coimbatore. I enjoy turning a clear problem into working software, whether that means making a dataset easier to explore, organizing encrypted files or building an Android utility.</p>
+<p class="about__card-text" style="margin-top: 12px;">My projects use Python, C, Kotlin and Java, alongside tools such as Streamlit, OpenSSL and GitHub Actions. I'm especially interested in backend development, reporting automation and the practical use of AI, and I want to keep developing those skills through an internship.</p>
+</div>
+<!-- Accomplishments Card -->
+<div class="about__card reveal reveal-delay-2">
+<h3 class="about__card-title">
+<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+<circle cx="12" cy="8" r="7"></circle>
+<polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+</svg>
             Accomplishments
           </h3>
-          <ul class="accomplishment-list">
-            <li class="accomplishment-item">
-              <span class="accomplishment-icon accomplishment-icon--done">✓</span>
-              <span>Google Security Professional Certificate (Coursera)</span>
-            </li>
-            <li class="accomplishment-item">
-              <span class="accomplishment-icon accomplishment-icon--progress">◐</span>
-              <span>Ethical Hacking with Open-Source Tools (Kali Linux)</span>
-            </li>
-            <li class="accomplishment-item">
-              <span class="accomplishment-icon accomplishment-icon--done">✓</span>
-              <span>Completed preparation for CompTIA Linux+</span>
-            </li>
-            <li class="accomplishment-item">
-              <span class="accomplishment-icon accomplishment-icon--highlight">★</span>
-              <span>Ranked <strong>38th / 900</strong> at Pragyan CTF '26 (NIT Trichy) — Team UnslatedHashBrowns</span>
-            </li>
-            <li class="accomplishment-item">
-              <span class="accomplishment-icon accomplishment-icon--done">✓</span>
-              <span>Proficient in Python, Java, C, Shell scripting, Web Dev, MySQL</span>
-            </li>
-          </ul>
-        </div>
-
-        <!-- Quick Details Card -->
-        <div class="about__card reveal reveal-delay-3">
-          <h3 class="about__card-title">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="12" cy="12" r="10"/>
-              <line x1="2" y1="12" x2="22" y2="12"/>
-              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
-            </svg>
+<ul class="accomplishment-list"><li class="accomplishment-item"><span aria-hidden="true" class="accomplishment-icon accomplishment-icon--done">✓</span><span><strong>Google Cybersecurity Professional Certificate</strong><br/>Google / Coursera · November 2025</span></li>
+<li class="accomplishment-item"><span aria-hidden="true" class="accomplishment-icon accomplishment-icon--highlight">★</span><span><strong>38th among 500+ teams</strong> at Pragyan CTF, NIT Trichy, with a focus on cryptography and web exploitation.</span></li>
+<li class="accomplishment-item"><span aria-hidden="true" class="accomplishment-icon accomplishment-icon--highlight">★</span><span><strong>Special Mention</strong> at Amrita's 12-hour LangChain Hackathon for a Unity/C# game demo with an LLM-driven NPC.</span></li></ul>
+</div>
+<!-- Quick Details Card -->
+<div class="about__card reveal reveal-delay-3">
+<h3 class="about__card-title">
+<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+<circle cx="12" cy="12" r="10"></circle>
+<line x1="2" x2="22" y1="12" y2="12"></line>
+<path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+</svg>
             Quick Info
           </h3>
-          <ul class="about__detail-list">
-            <li class="about__detail-item">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
-                <circle cx="12" cy="10" r="3"/>
-              </svg>
-              Chennai, India
-            </li>
-            <li class="about__detail-item">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
-                <line x1="16" y1="2" x2="16" y2="6"/>
-                <line x1="8" y1="2" x2="8" y2="6"/>
-                <line x1="3" y1="10" x2="21" y2="10"/>
-              </svg>
-              Born 1 March 2006, Bengaluru
-            </li>
-            <li class="about__detail-item">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <circle cx="12" cy="12" r="10"/>
-                <path d="M2 12h20"/>
-                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
-              </svg>
-              Indian
-            </li>
-            <li class="about__detail-item">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/>
-                <line x1="4" y1="22" x2="4" y2="15"/>
-              </svg>
-              English · Hindi · Tamil · Kannada · French
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <!-- ======== Projects Section ======== -->
-    <section class="section" id="projects">
-      <div class="section__header reveal">
-        <p class="section__label">Portfolio</p>
-        <h2 class="section__title">My Projects</h2>
-        <p class="section__subtitle">All my open-source repositories on GitHub — projects spanning algorithms, web apps, simulations, and more.</p>
-      </div>
-      <div class="projects-grid" id="projects-grid">
-        <!-- Dynamically rendered by script.js -->
-      </div>
-    </section>
-
-    <!-- ======== Skills Section ======== -->
-    <section class="section" id="skills">
-      <div class="section__header reveal">
-        <p class="section__label">Expertise</p>
-        <h2 class="section__title">Skills & Technologies</h2>
-        <p class="section__subtitle">Tools and technologies I work with across security, development, and infrastructure.</p>
-      </div>
-
-      <div class="skills-grid">
-        <!-- Security -->
-        <div class="skill-category reveal reveal-delay-1">
-          <div class="skill-category__icon skill-category__icon--security">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
-            </svg>
-          </div>
-          <h3 class="skill-category__title">Security</h3>
-          <div class="tech-stack">
-            <span class="tech-badge tech-badge--security">Penetration Testing</span>
-            <span class="tech-badge tech-badge--security">Vulnerability Assessment</span>
-            <span class="tech-badge tech-badge--security">Threat Detection</span>
-            <span class="tech-badge tech-badge--security">Incident Response</span>
-            <span class="tech-badge tech-badge--security">Kali Linux</span>
-            <span class="tech-badge tech-badge--security">CTF Competitions</span>
-          </div>
-        </div>
-
-        <!-- Languages -->
-        <div class="skill-category reveal reveal-delay-2">
-          <div class="skill-category__icon skill-category__icon--code">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <polyline points="16 18 22 12 16 6"/>
-              <polyline points="8 6 2 12 8 18"/>
-            </svg>
-          </div>
-          <h3 class="skill-category__title">Languages</h3>
-          <div class="tech-stack">
-            <span class="tech-badge tech-badge--code">Python</span>
-            <span class="tech-badge tech-badge--code">Java</span>
-            <span class="tech-badge tech-badge--code">C</span>
-            <span class="tech-badge tech-badge--code">C++</span>
-            <span class="tech-badge tech-badge--code">JavaScript</span>
-            <span class="tech-badge tech-badge--code">Shell Scripting</span>
-            <span class="tech-badge tech-badge--code">MySQL</span>
-          </div>
-        </div>
-
-        <!-- Tools & Infra -->
-        <div class="skill-category reveal reveal-delay-3">
-          <div class="skill-category__icon skill-category__icon--tools">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
-              <line x1="8" y1="21" x2="16" y2="21"/>
-              <line x1="12" y1="17" x2="12" y2="21"/>
-            </svg>
-          </div>
-          <h3 class="skill-category__title">Tools & Infrastructure</h3>
-          <div class="tech-stack">
-            <span class="tech-badge tech-badge--tools">Linux Administration</span>
-            <span class="tech-badge tech-badge--tools">Git & GitHub</span>
-            <span class="tech-badge tech-badge--tools">Web Development</span>
-            <span class="tech-badge tech-badge--tools">CI/CD</span>
-            <span class="tech-badge tech-badge--tools">Containerization</span>
-            <span class="tech-badge tech-badge--tools">Automation</span>
-          </div>
-        </div>
-
-        <!-- Concepts -->
-        <div class="skill-category reveal reveal-delay-4">
-          <div class="skill-category__icon skill-category__icon--concepts">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <polygon points="12 2 2 7 12 12 22 7 12 2"/>
-              <polyline points="2 17 12 22 22 17"/>
-              <polyline points="2 12 12 17 22 12"/>
-            </svg>
-          </div>
-          <h3 class="skill-category__title">Concepts</h3>
-          <div class="tech-stack">
-            <span class="tech-badge tech-badge--concepts">Data Structures</span>
-            <span class="tech-badge tech-badge--concepts">Algorithms</span>
-            <span class="tech-badge tech-badge--concepts">OOP</span>
-            <span class="tech-badge tech-badge--concepts">Concurrency</span>
-            <span class="tech-badge tech-badge--concepts">OS Internals</span>
-            <span class="tech-badge tech-badge--concepts">Agile / Scrum</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ======== Education Section ======== -->
-    <section class="section" id="education">
-      <div class="section__header reveal">
-        <p class="section__label">Education</p>
-        <h2 class="section__title">Academic Background</h2>
-      </div>
-
-      <div class="timeline">
-        <div class="timeline__item reveal reveal-delay-1">
-          <div class="timeline__marker"></div>
-          <div class="timeline__card">
-            <span class="timeline__date">August 2024 — April 2028</span>
-            <h3 class="timeline__title">B.Tech in Computer Science & Engineering</h3>
-            <p class="timeline__institution">Amrita School of Computing, Coimbatore</p>
-            <div class="timeline__details">
-              <ul>
-                <li>Google Security Professional Certificate (Coursera) — Completed</li>
-                <li>Ethical Hacking with Open-Source Tools (Kali Linux) — In Progress</li>
-                <li>CompTIA Linux+ Certification — Prepared</li>
-                <li>Proficient in Python, Java, C, Shell Scripting, Web Dev, MySQL</li>
-                <li>Team UnslatedHashBrowns — Ranked 38/900 at Pragyan CTF '26</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ======== Contact Section ======== -->
-    <section class="section" id="contact">
-      <div class="section__header reveal">
-        <p class="section__label">Get In Touch</p>
-        <h2 class="section__title">Let's Connect</h2>
-        <p class="section__subtitle">Actively seeking cybersecurity internships. Let's talk about security, code, or collaboration.</p>
-      </div>
-
-      <div class="contact-grid">
-        <a href="https://github.com/BroCoder007" target="_blank" rel="noopener noreferrer" class="contact-card reveal reveal-delay-1">
-          <div class="contact-card__icon">
-            <svg viewBox="0 0 24 24" fill="currentColor">
-              <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-            </svg>
-          </div>
-          <span class="contact-card__label">GitHub</span>
-          <span class="contact-card__value">@BroCoder007</span>
-        </a>
-
-        <a href="tel:+917305952919" class="contact-card reveal reveal-delay-2">
-          <div class="contact-card__icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
-            </svg>
-          </div>
-          <span class="contact-card__label">Phone</span>
-          <span class="contact-card__value">+91 73059 52919</span>
-        </a>
-
-        <div class="contact-card reveal reveal-delay-3">
-          <div class="contact-card__icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
-              <circle cx="12" cy="10" r="3"/>
-            </svg>
-          </div>
-          <span class="contact-card__label">Location</span>
-          <span class="contact-card__value">Chennai, India</span>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="main-content">
-      <div class="footer__links">
-        <a href="https://github.com/BroCoder007" target="_blank" rel="noopener noreferrer" class="footer__link" aria-label="GitHub">
-          <svg viewBox="0 0 24 24" fill="currentColor">
-            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-          </svg>
-        </a>
-      </div>
-      <p class="footer__text">
-        Built with <span class="footer__heart">♥</span> by Abhinav Raghavendra · © 2025
-      </p>
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
+<ul class="about__detail-list"><li class="about__detail-item">Chennai, India</li><li class="about__detail-item">B.Tech CSE · 2024–2028 (expected)</li><li class="about__detail-item">Open to software engineering internships</li><li class="about__detail-item">English · Hindi · Tamil · Kannada · French</li></ul>
+</div>
+</div>
+</section>
+<!-- ======== Projects Section ======== -->
+<section class="section" id="projects">
+<div class="section__header reveal">
+<p class="section__label">Portfolio</p>
+<h2 class="section__title">Selected Projects</h2>
+<p class="section__subtitle">Three substantial applications, followed by two focused Java learning projects. Explore the source code and implementation details on GitHub.</p>
+</div>
+<div class="projects-grid" id="projects-grid"><article class="project-card reveal"><div class="project-card__header"><span class="project-category">Data &amp; analytics</span></div><h3 class="project-card__name"><a href="https://github.com/BroCoder007/Department_Of_Phisheries" rel="noopener noreferrer" target="_blank">Department of Phisheries</a></h3><p class="project-card__desc">A six-dashboard application for exploring the PhiUSIIL phishing URL dataset and presenting statistical evidence.</p><ul class="project-details"><li>235,795 dataset records, 15 statistical questions and a reproducible 10,000-host sampling comparison.</li><li>Four fitted classifiers with a prediction form, CSV/API exports and an application test suite.</li></ul><p class="project-stack">Python · Streamlit · pandas · SciPy · scikit-learn · Plotly · SQLite</p><a class="project-source" href="https://github.com/BroCoder007/Department_Of_Phisheries" rel="noopener noreferrer" target="_blank">View source <span aria-hidden="true">↗</span><span class="sr-only"> for Department of Phisheries on GitHub</span></a></article><article class="project-card reveal"><div class="project-card__header"><span class="project-category">Security tooling</span></div><h3 class="project-card__name"><a href="https://github.com/BroCoder007/secure-file-manager" rel="noopener noreferrer" target="_blank">Secure File Manager</a></h3><p class="project-card__desc">A C application for password-based file encryption, a local file vault and hashing utilities.</p><ul class="project-details"><li>AES-256-CBC encryption with PBKDF2-HMAC-SHA-256 key derivation and random salts.</li><li>CLI and GTK3 workflows for encryption, decryption, vault operations and SHA-256/SHA-512 hashing.</li></ul><p class="project-stack">C · OpenSSL · GTK3 · Make</p><a class="project-source" href="https://github.com/BroCoder007/secure-file-manager" rel="noopener noreferrer" target="_blank">View source <span aria-hidden="true">↗</span><span class="sr-only"> for Secure File Manager on GitHub</span></a></article><article class="project-card reveal"><div class="project-card__header"><span class="project-category">Android development</span></div><h3 class="project-card__name"><a href="https://github.com/BroCoder007/NothiNGChargingMeter" rel="noopener noreferrer" target="_blank">Nothing Charging Meter</a></h3><p class="project-card__desc">An unofficial Android utility that maps battery charging progress to Glyph lights on supported Nothing phones.</p><ul class="project-details"><li>Foreground battery monitoring, phone-model selection and persistent preferences.</li><li>Start/stop controls, a light-test action and a version 1.0 release APK in the repository.</li></ul><p class="project-stack">Kotlin · Jetpack Compose · DataStore · Nothing Glyph SDK</p><a class="project-source" href="https://github.com/BroCoder007/NothiNGChargingMeter" rel="noopener noreferrer" target="_blank">View source <span aria-hidden="true">↗</span><span class="sr-only"> for Nothing Charging Meter on GitHub</span></a></article></div>
+<div class="learning-projects"><h3>Completed Learning Projects</h3><div class="learning-grid">
+<article class="project-card reveal"><span class="project-category">Java · Data structures</span><h4 class="project-card__name"><a href="https://github.com/BroCoder007/ExamSurvivalApp" rel="noopener noreferrer" target="_blank">ExamSurvivalApp</a></h4><p class="project-card__desc">A console task manager built around a custom doubly linked list. Add and remove tasks, then list them in forward or reverse order.</p><a class="project-source" href="https://github.com/BroCoder007/ExamSurvivalApp" rel="noopener noreferrer" target="_blank">View source <span aria-hidden="true">↗</span><span class="sr-only"> for ExamSurvivalApp on GitHub</span></a></article>
+<article class="project-card reveal"><span class="project-category">Java · Data structures</span><h4 class="project-card__name"><a href="https://github.com/BroCoder007/SimpleBlockChainTool" rel="noopener noreferrer" target="_blank">SimpleBlockChainTool</a></h4><p class="project-card__desc">An educational linked-list ledger simulation with add, find, delete, forward/reverse traversal and grouping by block type.</p><a class="project-source" href="https://github.com/BroCoder007/SimpleBlockChainTool" rel="noopener noreferrer" target="_blank">View source <span aria-hidden="true">↗</span><span class="sr-only"> for SimpleBlockChainTool on GitHub</span></a></article>
+</div></div></section>
+<!-- ======== Skills Section ======== -->
+<section class="section" id="skills">
+<div class="section__header reveal">
+<p class="section__label">Expertise</p>
+<h2 class="section__title">Skills &amp; Technologies</h2>
+<p class="section__subtitle">Tools and technologies I work with across security, development, and infrastructure.</p>
+</div>
+<div class="skills-grid">
+<!-- Security -->
+<div class="skill-category reveal reveal-delay-1">
+<div class="skill-category__icon skill-category__icon--security">
+<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+</svg>
+</div>
+<h3 class="skill-category__title">Security &amp; Networking</h3>
+<div class="tech-stack"><span class="tech-badge tech-badge--security">OpenSSL</span><span class="tech-badge tech-badge--security">Kali Linux</span><span class="tech-badge tech-badge--security">Nmap</span><span class="tech-badge tech-badge--security">Wireshark</span><span class="tech-badge tech-badge--security">CTF competitions</span><span class="tech-badge tech-badge--security">Networking coursework</span></div>
+</div>
+<!-- Languages -->
+<div class="skill-category reveal reveal-delay-2">
+<div class="skill-category__icon skill-category__icon--code">
+<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+<polyline points="16 18 22 12 16 6"></polyline>
+<polyline points="8 6 2 12 8 18"></polyline>
+</svg>
+</div>
+<h3 class="skill-category__title">Languages</h3>
+<div class="tech-stack"><span class="tech-badge tech-badge--code">Python</span><span class="tech-badge tech-badge--code">JavaScript / TypeScript</span><span class="tech-badge tech-badge--code">C</span><span class="tech-badge tech-badge--code">Java</span><span class="tech-badge tech-badge--code">Rust</span><span class="tech-badge tech-badge--code">Kotlin</span><span class="tech-badge tech-badge--code">Shell</span></div>
+</div>
+<!-- Tools & Infra -->
+<div class="skill-category reveal reveal-delay-3">
+<div class="skill-category__icon skill-category__icon--tools">
+<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+<rect height="14" rx="2" ry="2" width="20" x="2" y="3"></rect>
+<line x1="8" x2="16" y1="21" y2="21"></line>
+<line x1="12" x2="12" y1="17" y2="21"></line>
+</svg>
+</div>
+<h3 class="skill-category__title">Development &amp; Delivery</h3>
+<div class="tech-stack"><span class="tech-badge tech-badge--tools">Git &amp; GitHub</span><span class="tech-badge tech-badge--tools">GitHub Actions</span><span class="tech-badge tech-badge--tools">FastAPI</span><span class="tech-badge tech-badge--tools">React / Next.js</span><span class="tech-badge tech-badge--tools">Linux</span><span class="tech-badge tech-badge--tools">Docker fundamentals</span></div>
+</div>
+<!-- Concepts -->
+<div class="skill-category reveal reveal-delay-4">
+<div class="skill-category__icon skill-category__icon--concepts">
+<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+<polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+<polyline points="2 17 12 22 22 17"></polyline>
+<polyline points="2 12 12 17 22 12"></polyline>
+</svg>
+</div>
+<h3 class="skill-category__title">Data &amp; Applications</h3>
+<div class="tech-stack"><span class="tech-badge tech-badge--concepts">Streamlit</span><span class="tech-badge tech-badge--concepts">pandas</span><span class="tech-badge tech-badge--concepts">SciPy</span><span class="tech-badge tech-badge--concepts">scikit-learn</span><span class="tech-badge tech-badge--concepts">Plotly</span><span class="tech-badge tech-badge--concepts">SQLite</span><span class="tech-badge tech-badge--concepts">GTK3</span></div>
+</div>
+</div>
+</section>
+<!-- ======== Education Section ======== -->
+<section class="section" id="education">
+<div class="section__header reveal">
+<p class="section__label">Background</p>
+<h2 class="section__title">Education &amp; Experience</h2>
+</div>
+<div class="timeline">
+<div class="timeline__item reveal reveal-delay-1">
+<div class="timeline__marker"></div>
+<div class="timeline__card">
+<span class="timeline__date">August 2024 – April 2028 (expected)</span>
+<h3 class="timeline__title">B.Tech in Computer Science &amp; Engineering</h3>
+<p class="timeline__institution">Amrita School of Computing, Coimbatore</p>
+<div class="timeline__details">
+<ul><li>CGPA: 8.47</li><li>Coursework: Computer Networks, Operating Systems, Object-Oriented Programming, Cybersecurity Fundamentals and Theory of Computation.</li></ul>
+</div>
+</div>
+</div>
+<div class="timeline__item reveal"><div class="timeline__marker"></div><div class="timeline__card"><span class="timeline__date">Short-term internship</span><h3 class="timeline__title">Endpoint Security Intern</h3><p class="timeline__institution">Hitachi Systems Pvt Ltd</p><div class="timeline__details"><p>Shadowed the endpoint security team to learn enterprise monitoring, security tooling and day-to-day operational workflows.</p></div></div></div></div>
+</section>
+<!-- ======== Contact Section ======== -->
+<section class="section" id="contact">
+<div class="section__header reveal">
+<p class="section__label">Get In Touch</p>
+<h2 class="section__title">Let's Connect</h2>
+<p class="section__subtitle">Open to software engineering internships and collaboration on development, reporting automation and security tooling.</p>
+</div>
+<div class="contact-grid">
+<a class="contact-card reveal reveal-delay-1" href="https://github.com/BroCoder007" rel="noopener noreferrer" target="_blank">
+<div class="contact-card__icon">
+<svg fill="currentColor" viewbox="0 0 24 24">
+<path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path>
+</svg>
+</div>
+<span class="contact-card__label">GitHub</span>
+<span class="contact-card__value">@BroCoder007</span>
+</a>
+<a class="contact-card reveal reveal-delay-2" href="mailto:right2abhinavrs@gmail.com">
+<div class="contact-card__icon"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><rect height="14" rx="2" width="18" x="3" y="5"></rect><path d="m3 6 9 7 9-7"></path></svg></div>
+<span class="contact-card__label">Email</span>
+<span class="contact-card__value">right2abhinavrs@gmail.com</span>
+</a>
+<a class="contact-card reveal reveal-delay-3" href="https://www.linkedin.com/in/abhinav-raghavendra-328134362/" rel="noopener noreferrer" target="_blank">
+<div class="contact-card__icon"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><rect height="18" rx="2" width="18" x="3" y="3"></rect><path d="M7 10v7m0-10v.1M11 17v-7m0 3c0-4 6-4 6 0v4"></path></svg></div>
+<span class="contact-card__label">LinkedIn</span>
+<span class="contact-card__value">Abhinav Raghavendra</span>
+</a>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="footer">
+<div class="main-content">
+<div class="footer__links">
+<a aria-label="GitHub" class="footer__link" href="https://github.com/BroCoder007" rel="noopener noreferrer" target="_blank">
+<svg fill="currentColor" viewbox="0 0 24 24">
+<path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path>
+</svg>
+</a>
+</div>
+<p class="footer__text">Abhinav Raghavendra · © 2026</p>
+</div>
+</footer>
+<script defer="" src="script.js"></script>
 </body>
 </html>
